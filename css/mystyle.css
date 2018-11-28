@@ -19,6 +19,7 @@ h2, h4, p, li { font-weight: 400 } /* 400 is normal */
 
 
 /* PURPLE */
+/*
 
 ul.navbar-nav.mr-auto li.nav-item a.nav-link { color: #6735a1; opacity: 0.7}
 ul.navbar-nav.mr-auto li.nav-item a.nav-link.active { color: #6735a1; opacity: 1 }
@@ -43,11 +44,12 @@ ul.navbar-nav.mr-auto li.nav-item a.nav-link.active { color: #6735a1; opacity: 1
 
 .tutorials-examples h3 a, 
 .tutorials-examples .col-md-4 p a { color: #6735a1 }
-
+*/
 
 /* BLUE */
 
-/* ul.navbar-nav.mr-auto li.nav-item a.nav-link { color: #230cea; opacity: 0.7}
+/*
+ul.navbar-nav.mr-auto li.nav-item a.nav-link { color: #230cea; opacity: 0.7}
 ul.navbar-nav.mr-auto li.nav-item a.nav-link.active { color: #230cea; opacity: 1 }
 .navbar .btn-get-in-touch { background-color: #230cea; color: #fff }
 .navbar .btn-get-in-touch:hover, .navbar .btn-get-in-touch:active { background: #1C0AC0 }
@@ -71,11 +73,12 @@ ul.navbar-nav.mr-auto li.nav-item a.nav-link.active { color: #230cea; opacity: 1
 
 .tutorials-examples h3 a, 
 .tutorials-examples .col-md-4 p a { color: #230cea }
+
 */
 
 /* RED */
 
-/*
+
 ul.navbar-nav.mr-auto li.nav-item a.nav-link { color: #c0392b; opacity: 0.7}
 ul.navbar-nav.mr-auto li.nav-item a.nav-link.active { color: #c0392b; opacity: 1 }
 .navbar .btn-get-in-touch { background-color: #c0392b; color: #fff }
@@ -100,7 +103,7 @@ ul.navbar-nav.mr-auto li.nav-item a.nav-link.active { color: #c0392b; opacity: 1
 
 .tutorials-examples h3 a, 
 .tutorials-examples .col-md-4 p a { color: #c0392b }
-*/
+
 
 
 /* ======= ALL PAGES  ========== */
@@ -144,7 +147,7 @@ ul.navbar-nav.mr-auto li.nav-item a.nav-link.active { color: #c0392b; opacity: 1
 
 .jumbotron-home::after { /* Creates an overlay - behind text and in front of background image */
 	content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; 	z-index: -1;
-	background: rgba(20, 20, 20, .4); /* Sets colour of overlay and opacity level */
+	background: rgba(20, 20, 20, .2); /* Sets colour of overlay and opacity level */
 }
 
 .jumbotron-home, .jumbotron-home::after { height: 480px } /* jumbtron and overlay must be same height */
