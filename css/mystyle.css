@@ -46,9 +46,9 @@ ul.navbar-nav.mr-auto li.nav-item a.nav-link.active { color: #6735a1; opacity: 1
 .tutorials-examples .col-md-4 p a { color: #6735a1 }
 */
 
-/* BLUE */
-
+ /*BLUE */
 /*
+
 ul.navbar-nav.mr-auto li.nav-item a.nav-link { color: #230cea; opacity: 0.7}
 ul.navbar-nav.mr-auto li.nav-item a.nav-link.active { color: #230cea; opacity: 1 }
 .navbar .btn-get-in-touch { background-color: #230cea; color: #fff }
@@ -137,7 +137,7 @@ ul.navbar-nav.mr-auto li.nav-item a.nav-link.active { color: #c0392b; opacity: 1
 
 /* jumbotron */
 .jumbotron-home {
-	background-image: url('../img/hero-image-ibat-college.jpg');
+	background-image: url('../img/portfolio-hero-image.jpg');
 	background-size: cover; /* Ensures background image expands to fill jumbotron area  */
 	text-align: center; /* Ensures text in jumbotron is centered horizontally  */
 	display:flex; align-items:center; /* Ensures text in jumbotron is centered vertically */
@@ -172,7 +172,7 @@ ul.navbar-nav.mr-auto li.nav-item a.nav-link.active { color: #c0392b; opacity: 1
 
 /* jumbotron */
 .jumbotron-portfolio {
-	background-image: url('../img/portfolio-hero-image.jpg');
+	background-image: url('../img/mainimg.jpg');
 	background-size: cover; /* Ensures background image expands to fill jumbotron area  */
 	text-align: center; /* Ensures text in jumbotron is centered horizontally  */
 	display:flex; align-items:center; /* Ensures text in jumbotron is centered vertically */
@@ -283,6 +283,60 @@ tutorials-examples a.ghost-button-square {
 .tutorials-examples a.ghost-button-round:hover, 
 .tutorials-examples a.ghost-button-round:active { color: #fff }
 
+
+.jumbotron-florencia {
+	background-image: url('../img/img2.jpg');
+	background-size: cover; /* Ensures background image expands to fill jumbotron area  */
+	text-align: center; /* Ensures text in jumbotron is centered horizontally  */
+	display:flex; align-items:center; /* Ensures text in jumbotron is centered vertically */
+	position: relative; z-index: 1; /* Needed for overlay */
+	margin-bottom: 28px;
+}
+
+.jumbotron-florencia::after { /* Creates an overlay - behind text and in front of background image */
+	content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; 	z-index: -1;
+	background: rgba(20, 20, 20, .4); /* Sets colour of overlay and opacity level */
+}
+
+.jumbotron-florencia, .jumbotron-florencia::after { height: 480px } /* jumbtron and overlay must be same height */
+
+.jumbotron-florencia h1, .jumbotron-florencia h2 {
+	color:#fff; font-weight: 700; margin: 0 auto;
+	line-height: 1.3; text-shadow: 2px 2px #222;
+}
+
+.jumbotron-florencia h1 { font-size:72px; margin-bottom:2% }
+.jumbotron-florencia h2 { font-size:32px; font-weight:400; max-width:70% }
+
+.tutorials-examples .col-md-4 { padding-bottom:30px }
+.tutorials-examples .images-shadow { box-shadow: 5px 10px 8px #888888 }
+.tutorials-examples h3 { font-size: 24px; font-weight: 400; margin-top:24px; margin-bottom:4px }
+.tutorials-examples p  { font-size: 16px; color: #021647  }
+
+.tutorials-examples p a { text-decoration: underline }
+.tutorials-examples p a:hover, .tutorials-examples p a:active { text-decoration: none }
+
+tutorials-examples a.ghost-button-square { 
+	display: inline-block; line-height:1; padding: 10px 18px 14px 18px; 
+	border-style: solid;
+	border-width: 3px; 
+	text-decoration: none; border-radius: 1px;
+}
+
+.tutorials-examples a.ghost-button-square:hover, 
+.tutorials-examples a.ghost-button-square:active { color: #fff }
+
+.tutorials-examples a.ghost-button-round { 
+	font-size:17px;
+	display: inline-block; line-height:1; padding: 12px 20px 16px 20px; 
+	border-style: solid;
+	border-width: 3px; 
+	text-decoration: none;  
+	border-radius: 100px 100px 100px 100px;
+}
+
+.tutorials-examples a.ghost-button-round:hover, 
+.tutorials-examples a.ghost-button-round:active { color: #fff }
 
 
 /*=========PRIVACY PAGE ===========*/
